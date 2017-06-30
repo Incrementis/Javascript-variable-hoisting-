@@ -11,7 +11,7 @@ function Start()
 	var result = document.getElementById('result');
 	
 	
-	//Define strength of oponent - "Math.floor" means rounding up!	
+	//Define strength of opponent - "Math.floor" means rounding up!	
 	cStr.value = Math.floor( (Math.random() * 29) + 1 );
 	
 	
@@ -54,10 +54,10 @@ function Start()
 		The plus signs are used to convert strings into numbers.
 		The whole code serves only illustration and could be optimized.
 	*/
-	//Checking Hitpoints
+	//Checking hitpoints
 	if( (+yHP.textContent) > 0 && (+cHP.textContent) > 0 )
 	{
-		//Checking Hits
+		//Checking hits
 		if( (+yStr.value) > (+cStr.value) )
 		{
 			
