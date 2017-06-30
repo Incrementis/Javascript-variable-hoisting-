@@ -11,7 +11,7 @@ function Start()
 	var result = document.getElementById('result');
 	
 	
-	//Define Strength of oponent - "Math.floor" means rounding up!	
+	//Define strength of oponent - "Math.floor" means rounding up!	
 	cStr.value = Math.floor( (Math.random() * 29) + 1 );
 	
 	
