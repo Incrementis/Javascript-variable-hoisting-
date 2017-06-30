@@ -11,14 +11,14 @@ function Start()
 	var result = document.getElementById('result');
 	
 	
-	//Define Strengths of oponent - "Math.floor" means rounding up!	
+	//Define Strength of oponent - "Math.floor" means rounding up!	
 	cStr.value = Math.floor( (Math.random() * 29) + 1 );
 	
 	
 	
 	/*
 		ATTENTION:
-		The for loop contains hoisted variables ("i" and "loopStr")
+		The "for" loop contains hoisted variables ("i" and "loopStr")
 	*/
 	for(var i = 0; i <= 2; i++)
 	{
